@@ -126,8 +126,8 @@ async function playRaceEngine(character1, character2) {
         if (block === "CURVA") {
             totalTestSkill1 = dice1 + character1.MANOBRABILIDADE
             totalTestSkill2 = dice2 + character2.MANOBRABILIDADE
-            await logRollResult(character1.NOME, 'manoabilidade', dice1, character1.MANOBRABILIDADE)
-            await logRollResult(character2.NOME, 'manoabilidade', dice2, character2.MANOBRABILIDADE)
+            await logRollResult(character1.NOME, 'manobrabilidade', dice1, character1.MANOBRABILIDADE)
+            await logRollResult(character2.NOME, 'manobrabilidade', dice2, character2.MANOBRABILIDADE)
             console.log('\n')
 
         }
