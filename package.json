@@ -1,0 +1,11 @@
+{
+  "name": "projeto-01-simulado-de-corrida-mario-kart",
+  "version": "1.0.0",
+  "description": "Projeto simulador de corridas do mario kart com node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "victor neves",
+  "license": "ISC"
+}
